@@ -1,0 +1,97 @@
+
+
+System.out.println("____________________");
+		System.out.println("");
+		System.out.println("ESTRTUTURAS DE CONTROLE");
+		System.out.println("");
+		System.out.println("Estruturas de Controle Condicional");
+		//Estrutura if
+		System.out.println("");
+		System.out.println("Exemplo 1 - uso do 'if'");
+		
+		if (sexo == 'M') {
+			System.out.println("Alistamento militar obrigatorio");
+		}
+		
+		// Estrutura If e Else
+        System.out.println("Exemplo 2 - uso do 'if e else'");
+		idade = 17;
+		if (idade < 18) {
+			System.out.println("menor de idade");
+				}else {
+					System.out.println("Maior de idade");
+				}
+		// Estrutura Else if
+		System.out.println("");
+		System.out.println("Exemplo 3 - uso do 'else if");
+		idade = 50;
+		if (idade < 16) {
+			System.out.println("PROIBIDO VOTAR");
+			}else if (idade >= 18 && idade <= 70) {
+				System.out.println("VOTO OBRIGATÓRIO");
+			} else {
+				System.out.println("VOTO FACULTATIVO");
+			}
+		// Estrutura switch case
+		System.out.println("");
+		System.out.println("Exemplo 4 - uso do 'switch case");
+		System.out.println("1. Cadastro de clientes");
+		System.out.println("2. Cadastro de usuários");
+		System.out.println("3. Relatórios");
+		int opcao = 2;
+		switch (opcao) {
+		case 1: 
+			System.out.println("CLIENTES");
+		case 2: 
+			System.out.println("USUÁRIOS");
+		case 3: 
+			System.out.println("RELATÓRIOS");
+		default: 
+			System.out.println("OPÇÃO INVALIDA");
+		}
+		
+		// ESTRUTURA DE REPETIÇÃO FOR
+		
+		System.out.println("");
+		System.out.println("Estruturas de Repetições");
+		System.out.println("");
+		System.out.println("Exemplo 5 - uso do 'for'");
+		for (int j = 10; j > 0; j--) {
+			System.out.println(j);
+		}
+		
+		// TABUADA
+		
+		System.out.println("");
+		System.out.println("Exemplo 6 - Tabuada");
+		for (int tabuada = 0; tabuada <= 10; tabuada ++) {
+			System.out.println("");
+			for (int valor =0; valor <=10; valor ++) {
+				System.out.println(tabuada + " x " + valor + " = " + (tabuada * valor));
+		}
+			
+			// ESTRUTURA 'WHILE'
+			
+		System.out.println("");
+		System.out.println("Exemplo 7 - Uso da estrutura while");
+		int contador = 1;
+		while (contador <= 10) {
+			System.out.println(contador);
+			contador ++;
+		}
+		
+		//ESTRUTURA 'DO WHILE'
+		
+		System.out.println("");
+		System.out.println("Exemplo 8 - Uso da estrutura do while");
+		char novoJogo;
+		do {
+			System.out.println("Deseja jogar novamente(s/n)?");
+			novoJogo = 'n';
+			} while (novoJogo == 's');
+		    System.out.println("GAME OVER");
+		
+			}
+		
+
+	}
